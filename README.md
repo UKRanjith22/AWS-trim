@@ -1,7 +1,7 @@
 1. Download trim.js
 2. Open terminal, Enter 
   ```
-  cd AWS-trim
+  cd AWS-trim-master
 
   ```
 3. Now enter following code in terminal 
