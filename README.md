@@ -13,7 +13,7 @@
 5. The AWS Lambda runtime already has the AWS SDK for JavaScript in Node.js, So we don't need to install AWS SDK
 6. Select `trim.js & node_modules` folder and create a zip file
 7. In AWS, create a lambda function and upload this zip in `Function code` section, Change the HandlerInfo name to 
-```trim.Handler``` 
+```trim.handler``` 
 8. In the designer section, add trigger S3 bucket to your AWS lambda function 
 9. Now when ever you upload a file to bucket, you can see the new folder with converted images
 10. Following is an example test event, (update s3 bucket name, key, file size & file etag )
